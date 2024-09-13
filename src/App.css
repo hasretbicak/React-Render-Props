@@ -1,0 +1,29 @@
+.todo-list {
+  border: 1px solid #000;
+  border-radius: 16px;
+  padding: 15px;
+  display: inline-block;
+}
+.title {
+  font-size: 24px;
+  text-align: center;
+  color: rgb(202, 59, 59);
+}
+.todo-list-item {
+  list-style-type: none;
+}
+.todo-list-item .subject {
+  font-size: 1.5 rem;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 3px;
+}
+.todo-list-item .description {
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+.todo-list-item .status {
+  margin-bottom: 3px;
+  color: darkslateblue;
+}
